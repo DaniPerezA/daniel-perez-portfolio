@@ -1,12 +1,49 @@
-# Notas personales / estado del proyecto
+# =============================================
+# Archivos que NO son necesarios para ver la web
+# (no hace falta subirlos a GitHub para publicar)
+# =============================================
+
+# Notas personales y estado del proyecto
 status.md
 
+# Documentación del repositorio (no forma parte de la web publicada)
+README.md
+
+# Recursos antiguos que ya no se usan en la web
+myvalue-logo.png
+
+# =============================================
 # Archivos generados por el sistema operativo
+# =============================================
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-# Carpetas de editores/IDE
+# =============================================
+# Carpetas y archivos de editores / IDE
+# =============================================
 .idea/
 .vscode/
 *.swp
 *~
+*.sublime-project
+*.sublime-workspace
+
+# =============================================
+# Archivos temporales, backups y logs
+# =============================================
+*.bak
+*.tmp
+*.temp
+*.log
+*.old
+
+# =============================================
+# Si en el futuro se añade Node.js / build process
+# (por ahora la web es 100% estática)
+# =============================================
+node_modules/
+dist/
+build/
+.cache/
