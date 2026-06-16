@@ -1,0 +1,12 @@
+# Notas personales / estado del proyecto
+status.md
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Carpetas de editores/IDE
+.idea/
+.vscode/
+*.swp
+*~
