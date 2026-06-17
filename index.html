@@ -8,8 +8,8 @@
   <meta property="og:title" content="Daniel Pérez Álvarez | Engineering Manager">
   <meta property="og:description" content="Engineering Manager with 7+ years leading high-performing teams. Scaling engineering organizations, modernizing legacy systems to microservices, and delivering compliant high-throughput platforms.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="./assets/headshot.jpg">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>DP</text></svg>">
+  <meta property="og:image" content="./assets/logo_imagen.jpg">
+  <link rel="icon" href="./assets/logo_imagen.jpg" type="image/jpeg">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <style>
@@ -139,7 +139,7 @@
       <div class="flex items-center justify-between h-16">
         <!-- Logo -->
         <div class="flex items-center gap-x-3">
-          <div class="w-9 h-9 bg-slate-900 text-white rounded-xl flex items-center justify-center font-display text-xl font-semibold tracking-tighter">DP</div>
+          <img src="./assets/logo_imagen.jpg" alt="Daniel Pérez Álvarez logo" class="w-9 h-9 rounded-xl object-cover ring-1 ring-slate-200">
           <div>
             <div class="font-semibold text-lg tracking-tight">Daniel Pérez Álvarez</div>
             <div class="text-[10px] text-slate-500 -mt-1 hidden sm:block">Engineering Manager</div>
@@ -178,12 +178,7 @@
               <a href="./assets/CV_Daniel_Perez_English.pdf" download 
                  class="flex items-center gap-2 px-4 py-2.5 hover:bg-slate-50 text-slate-700">
                 <i class="fa-solid fa-globe w-4"></i>
-                <span>English CV</span>
-              </a>
-              <a href="./assets/CV_Daniel_Perez_ES.pdf" download 
-                 class="flex items-center gap-2 px-4 py-2.5 hover:bg-slate-50 text-slate-700">
-                <i class="fa-solid fa-language w-4"></i>
-                <span>CV en Español</span>
+                <span>CV (English only)</span>
               </a>
             </div>
           </div>
@@ -206,9 +201,8 @@
         <a href="#testimonials" class="py-2.5 px-3 text-slate-600 hover:text-slate-900 hover:bg-slate-50 rounded-xl" data-i18n="nav.testimonials">Testimonials</a>
         <a href="#contact" class="py-2.5 px-3 text-slate-600 hover:text-slate-900 hover:bg-slate-50 rounded-xl" data-i18n="nav.contact">Contact</a>
         
-        <div class="pt-3 border-t border-slate-100 mt-2 flex gap-2">
-          <a href="./assets/CV_Daniel_Perez_English.pdf" download class="flex-1 text-center px-4 py-2 bg-slate-900 text-white text-sm font-semibold rounded-xl">Download EN CV</a>
-          <a href="./assets/CV_Daniel_Perez_ES.pdf" download class="flex-1 text-center px-4 py-2 border border-slate-300 text-sm font-semibold rounded-xl">CV ES</a>
+        <div class="pt-3 border-t border-slate-100 mt-2">
+          <a href="./assets/CV_Daniel_Perez_English.pdf" download class="block text-center px-4 py-2 bg-slate-900 text-white text-sm font-semibold rounded-xl">Download CV (English only)</a>
         </div>
       </div>
     </div>
@@ -276,12 +270,11 @@
         <div class="md:col-span-5 flex justify-center md:justify-end">
           <div class="relative">
             <div class="absolute -inset-4 bg-gradient-to-br from-blue-100/60 to-transparent rounded-3xl -z-10"></div>
-            <img src="./assets/headshot.jpg" alt="Daniel Pérez Álvarez - Professional headshot" 
-                 class="w-[280px] md:w-[320px] h-[280px] md:h-[320px] object-cover rounded-3xl shadow-2xl ring-1 ring-slate-200 border border-white">
-            <div class="absolute -bottom-3 -right-3 bg-white border border-slate-200 shadow px-4 py-1.5 rounded-2xl text-xs font-semibold flex items-center gap-2">
-              <div class="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></div>
-              <span data-i18n="hero.available">Open to opportunities</span>
-            </div>
+            <video autoplay muted loop playsinline 
+                   class="w-[280px] md:w-[320px] h-[280px] md:h-[320px] object-cover rounded-3xl shadow-2xl ring-1 ring-slate-200 border border-white" 
+                   poster="./assets/logo_imagen.jpg">
+              <source src="./assets/logo_video.mp4" type="video/mp4">
+            </video>
           </div>
         </div>
       </div>
@@ -471,6 +464,12 @@
         </button>
       </div>
 
+      <!-- Hiring note -->
+      <div class="mt-6 p-4 bg-blue-50 rounded-2xl text-sm">
+        <p class="font-medium text-slate-700" data-i18n="contact.hiring_note_title">Building software solutions for your business</p>
+        <p class="text-slate-600 mt-1" data-i18n="contact.hiring_note_body">I'm available to collaborate with companies to design and build custom software solutions, leveraging modern AI tools (agentic coding, automation) to deliver high-impact results tailored to your needs.</p>
+      </div>
+
       <!-- Simple static contact form (mailto) -->
       <div class="mt-8 pt-8 border-t border-slate-100">
         <p class="text-sm font-medium mb-3 text-slate-600" data-i18n="contact.form_title">Send a quick message</p>
@@ -524,7 +523,7 @@
           skills: "Skills",
           testimonials: "Testimonials",
           contact: "Contact",
-          download: "Download CV"
+          download: "Download CV (English)"
         },
         hero: {
           greeting: "Hello, I'm",
@@ -647,6 +646,10 @@
             {
               name: "Languages & Tools",
               items: ["Java", "Kotlin", "Python (ML)", "Spring ecosystem", "GraphQL", "REST APIs"]
+            },
+            {
+              name: "AI & Agentic Development",
+              items: ["Agentic coding with Claude Code", "Grok Build", "Microsoft Copilot"]
             }
           ]
         },
@@ -689,7 +692,9 @@
           copy: "Copy email address",
           form_title: "Send a quick message",
           send: "Send message",
-          form_note: "Opens your email client with a pre-filled message."
+          form_note: "Opens your email client with a pre-filled message.",
+          hiring_note_title: "Building software solutions for your business",
+          hiring_note_body: "I'm available to collaborate with companies to design and build custom software solutions, leveraging modern AI tools (agentic coding, automation) to deliver high-impact results tailored to your needs."
         }
       },
       es: {
@@ -700,7 +705,7 @@
           skills: "Habilidades",
           testimonials: "Recomendaciones",
           contact: "Contacto",
-          download: "Descargar CV"
+          download: "Descargar CV (Inglés)"
         },
         hero: {
           greeting: "Hola, soy",
@@ -715,7 +720,7 @@
         },
         about: {
           title: "Sobre mí",
-          body: "Gerente de Ingeniería orientado a resultados con más de 7 años liderando equipos de ingeniería multidisciplinares y distribuidos en entornos escalables. Experto en conectar la arquitectura técnica con la entrega de producto, modernizando sistemas legacy hacia microservicios y garantizando el cumplimiento con PCI-DSS y PSD2. Historial probado en implementación de metodologías Ágiles, contratación y desarrollo de equipos, optimización de rendimiento y entrega de sistemas de transacciones de alto volumen. Apasionado por el código limpio, el diseño mantenible y las prácticas productivas de ingeniería.",
+          body: "Engineering Manager orientado a resultados con más de 7 años liderando equipos de ingeniería multidisciplinares y distribuidos en entornos escalables. Experto en conectar la arquitectura técnica con la entrega de producto, modernizando sistemas legacy hacia microservicios y garantizando el cumplimiento con PCI-DSS y PSD2. Historial probado en implementación de metodologías Ágiles, contratación y desarrollo de equipos, optimización de rendimiento y entrega de sistemas de transacciones de alto volumen. Apasionado por el código limpio, el diseño mantenible y las prácticas productivas de ingeniería.",
           stat: {
             years: "Años liderando equipos de ingeniería",
             team: "Ingenieros escalados en una sola organización",
@@ -823,6 +828,10 @@
             {
               name: "Lenguajes y Herramientas",
               items: ["Java", "Kotlin", "Python (ML)", "Ecosistema Spring", "GraphQL", "REST APIs"]
+            },
+            {
+              name: "Desarrollo con IA y Agentes",
+              items: ["Agentic coding con Claude Code", "Grok Build", "Microsoft Copilot"]
             }
           ]
         },
@@ -865,7 +874,9 @@
           copy: "Copiar dirección de email",
           form_title: "Envía un mensaje rápido",
           send: "Enviar mensaje",
-          form_note: "Abre tu cliente de correo con un mensaje pre-rellenado."
+          form_note: "Abre tu cliente de correo con un mensaje pre-rellenado.",
+          hiring_note_title: "Construyendo soluciones de software para tu negocio",
+          hiring_note_body: "Estoy disponible para colaborar con empresas en el diseño y desarrollo de soluciones de software a medida, aprovechando herramientas de IA modernas (desarrollo agentic, automatización) para entregar resultados de alto impacto adaptados a tus necesidades."
         }
       }
     };
