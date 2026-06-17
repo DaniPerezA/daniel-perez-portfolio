@@ -21,7 +21,7 @@ Professional, fully static personal website for positioning with companies and r
 
 ## Customization
 
-All content lives in the JavaScript `i18n` object near the top of `index.html`.
+All bilingual content lives in the JavaScript `i18n` object at the top of `js/main.js`. Static defaults and SEO tags are in `index.html`.
 
 - Edit the `en` and `es` sections to update text, experience, projects, skills, testimonials.
 - To add/remove experience or project cards: edit the arrays in both languages.
@@ -67,9 +67,11 @@ Any other static host works (Cloudflare Pages, Firebase Hosting, etc.).
 
 ## SEO & Social
 
-- Title, meta description, and Open Graph tags are already set (edit in `<head>`).
-- Update LinkedIn / GitHub URLs in the contact and hero sections.
-- After deploy, test sharing on LinkedIn/Twitter — the OG tags will show nicely.
+- Full SEO implemented: canonical, robots meta, Open Graph + Twitter Cards, JSON-LD Person schema (all pointing to https://danipereza.com/), sitemap.xml (custom domain only), robots.txt.
+- Title, meta description, keywords, and schema optimized for "Engineering Manager", "technical leadership", "scalable systems", "AI-powered development".
+- Update LinkedIn / GitHub URLs in contact/hero and schema if needed.
+- After deploy on custom domain: verify https://danipereza.com/sitemap.xml and /robots.txt are served.
+- Test sharing on LinkedIn/X — OG/Twitter tags use the logo and professional description.
 
 ## Tips for Recruiters & Positioning
 - Keep the Projects / Impact section focused on measurable outcomes (transactions/sec, team scale, compliance achievements, successful acquisitions).
@@ -80,15 +82,14 @@ Any other static host works (Cloudflare Pages, Firebase Hosting, etc.).
 Edit the content object in `index.html`, refresh, and test. Provide new text, project details, or photos and I can update it directly here.
 
 Current assets included:
-- `headshot.jpg` (professional headshot – used in Hero)
-- `headshot-casual.jpg` (color smiling portrait – kept in assets as alternative)
-- `headshot-casual-bw.jpg` (black & white version – currently used in About section for a timeless, elegant look)
-- `CV_Daniel_Perez_English.pdf`
-- `CV_Daniel_Perez_ES.pdf`
-- `MyValue_Reference_Letter.pdf` (full signed letter from Andrés Romerales Cidoncha, CEO & Founder of MyValue Solutions)
-- `Qwist_Reference_Letter.pdf` (full signed letter from Qwist – Carlos Gomez & Dennis Lutter)
+- `logo_imagen.jpg` (logo used in navbar, favicon, OG image, video poster)
+- `logo_video.mp4` (subtle muted looping 6s video in hero)
+- `headshot-casual-bw.jpg` (black & white portrait used in About for approachable look)
+- `CV Daniel Perez.pdf` (English only)
+- `MyValue_Reference_Letter.pdf` (full signed letter)
+- `Qwist_Reference_Letter.pdf` (full signed letter)
 
-Both full reference letters are linked directly from the Testimonials section on the site so recruiters can view the signatures and complete text. Summaries/quotes are shown on the main page as before.
+Full reference letters are linked from Testimonials ("View full signed letter") — open in new tab. CV button opens PDF viewer directly (target=_blank). No Spanish CV.
 
 ---
 

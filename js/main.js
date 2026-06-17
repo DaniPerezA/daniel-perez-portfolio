@@ -19,7 +19,7 @@
           greeting: "Hello, I'm",
           name: "Daniel Pérez Álvarez",
           headline: "Engineering Manager | Building and Scaling engineering teams",
-          tagline: "Results-driven leader with 10+ years building and scaling high-performing engineering teams. Expert in modernizing legacy systems, delivering high-throughput platforms, and driving compliance in regulated environments.",
+          tagline: "Results-driven leader with 15+ years of software engineering experience (10+ leading teams). Expert in building scalable systems, modernizing legacy to microservices, AI-powered development, and driving compliance in regulated environments.",
           cta1: "Get in touch",
           cta2: "View my work",
           cta3: "View CV (English)",
@@ -28,7 +28,7 @@
         },
         about: {
           title: "About Me",
-          body: "Results-driven Engineering Manager with 10+ years leading multidisciplinary, distributed engineering teams in scalable environments. Expert in bridging technical architecture and product delivery, modernizing legacy systems to microservices, and ensuring compliance with PCI-DSS and PSD2 regulations. Proven track record in Agile methodology implementation, team hiring and development, performance optimization, and delivering high-throughput transaction systems. Passionate about clean code, maintainable software design, and productive engineering practices across the full project lifecycle.",
+          body: "Results-driven Engineering Manager with 15+ years of software engineering experience (10+ leading multidisciplinary, distributed engineering teams). Expert in bridging technical architecture and product delivery, modernizing legacy systems to microservices, AI-powered development, and ensuring compliance with PCI-DSS and PSD2 regulations. Proven track record in Agile methodology, team hiring and development, performance optimization, and high-throughput transaction systems. Passionate about clean code, maintainable design, and productive engineering practices.",
           stat: {
             years: "Years leading engineering teams",
             team: "Engineers scaled in a single organization",
@@ -62,7 +62,7 @@
             bullets: [
               "Led the technical design, evolution and delivery of a transaction data categorization and enrichment system (rules + ML models) processing 7 million transactions daily at 3.5K requests/second via REST APIs in highly regulated financial environments (PCI-DSS and PSD2).",
               "Managed cross-functional, multicultural and multidisciplinary remote team of 9 (engineers, Tech Lead, Data Scientist, 3 Data Quality specialists, PM), working in close partnership with Product and stakeholders on prioritization and roadmaps. Personally hired 4 engineers.",
-              "Built high-performance backend with Spring Boot + Spring WebFlux (asynchronous/parallel processing) and integrated Python-based ML models.",
+              "Built high-performance backend with Spring Boot + Async & parallel programming and integrated Python-based ML models.",
               "Deployed and monitored on Google Cloud Platform (Kubernetes, MongoDB Atlas, Kibana, APM) while adapting to different organizational maturity levels."
             ]
           },
@@ -96,7 +96,7 @@
             title: "High-Throughput Transaction Categorization Platform",
             context: "Qwist • 2021–2024",
             impact: "Designed and delivered a rules + ML categorization system serving 7M transactions/day at 3.5K req/s with low latency. Enabled enriched financial data products for banking clients across Europe.",
-            tech: "Spring Boot, Spring WebFlux, Python ML, Kubernetes (GCP), MongoDB Atlas, Kibana",
+            tech: "Spring Boot, Async & parallel programming, Python ML, Kubernetes (GCP), MongoDB Atlas, Kibana",
             result: "Production system processing millions of financial transactions daily with full PCI-DSS & PSD2 compliance"
           },
           {
@@ -134,24 +134,12 @@
               items: ["Google Cloud Platform (GCP)", "Kubernetes (CKAD)", "MongoDB Atlas", "PostgreSQL", "ELK / Observability", "CI/CD & monitoring"]
             },
             {
-              name: "Compliance & Security",
-              items: ["PCI-DSS", "PSD2", "Payments", "Data Encryption", "Security Best Practices"]
+              name: "Fintech & Compliance",
+              items: ["PCI-DSS", "PSD2", "Payments", "Rule based engines", "Data Encryption", "Security Best Practices"]
             },
             {
-              name: "Languages & Frameworks",
-              items: ["Java", "Kotlin", "Spring Boot", "Python (ML models)"]
-            },
-            {
-              name: "AI & Agentic Development",
-              items: ["Agentic coding", "Claude Code", "Grok Build", "Microsoft Copilot"]
-            },
-            {
-              name: "Methodologies",
-              items: ["Agile", "Scrum", "Kanban", "CI/CD", "Application Monitoring"]
-            },
-            {
-              name: "Other",
-              items: ["Data Categorization", "Machine Learning Integration", "Backoffice Systems"]
+              name: "Languages & Tools",
+              items: ["Java", "Kotlin", "Python", "Bash scripting", "Spring Boot", "GraphQL", "REST APIs"]
             }
           ]
         },
@@ -213,7 +201,7 @@
           greeting: "Hola, soy",
           name: "Daniel Pérez Álvarez",
           headline: "Engineering Manager | Construyendo y escalando equipos de ingeniería",
-          tagline: "Líder orientado a resultados con más de 7 años construyendo y escalando equipos de ingeniería de alto rendimiento. Experto en modernizar sistemas legacy, entregar plataformas de alto volumen y garantizar el cumplimiento en entornos regulados.",
+          tagline: "Líder orientado a resultados con más de 15 años de experiencia en ingeniería de software (10+ liderando equipos). Experto en construir sistemas escalables, modernizar legacy a microservicios, desarrollo con IA y garantizar el cumplimiento en entornos regulados.",
           cta1: "Ponte en contacto",
           cta2: "Ver mi trabajo",
           cta3: "Ver CV (Inglés)",
@@ -222,7 +210,7 @@
         },
         about: {
           title: "Sobre mí",
-          body: "Engineering Manager orientado a resultados con más de 7 años liderando equipos de ingeniería multidisciplinares y distribuidos en entornos escalables. Experto en conectar la arquitectura técnica con la entrega de producto, modernizando sistemas legacy hacia microservicios y garantizando el cumplimiento con PCI-DSS y PSD2. Historial probado en implementación de metodologías Ágiles, contratación y desarrollo de equipos, optimización de rendimiento y entrega de sistemas de transacciones de alto volumen. Apasionado por el código limpio, el diseño mantenible y las prácticas productivas de ingeniería.",
+          body: "Engineering Manager orientado a resultados con más de 15 años de experiencia en ingeniería de software (10+ liderando equipos multidisciplinares y distribuidos). Experto en conectar la arquitectura técnica con la entrega de producto, modernizando sistemas legacy hacia microservicios, desarrollo con IA y garantizando el cumplimiento con PCI-DSS y PSD2. Historial probado en metodologías Ágiles, contratación y desarrollo de equipos, optimización de rendimiento y sistemas de alto volumen. Apasionado por el código limpio, el diseño mantenible y las prácticas productivas de ingeniería.",
           stat: {
             years: "Años liderando equipos de ingeniería",
             team: "Ingenieros escalados en una sola organización",
@@ -256,7 +244,7 @@
             bullets: [
               "Lideré el diseño técnico, evolución y entrega de un sistema de categorización y enriquecimiento de transacciones (reglas + modelos ML) que procesa 7 millones de transacciones diarias a 3.5K peticiones/segundo en entornos financieros altamente regulados (PCI-DSS y PSD2).",
               "Gestioné un equipo remoto, multicultural y multidisciplinar de 9 personas (ingenieros, Tech Lead, Data Scientist, especialistas en calidad de datos y PM), colaborando estrechamente con Producto y stakeholders en priorización y roadmaps. Contraté personalmente a 4 ingenieros.",
-              "Construí un backend de alto rendimiento con Spring Boot + Spring WebFlux (procesamiento asíncrono/paralelo) e integré modelos de ML en Python.",
+              "Construí un backend de alto rendimiento con Spring Boot + Async & parallel programming e integré modelos de ML en Python.",
               "Desplegué y monitoricé en Google Cloud Platform (Kubernetes, MongoDB Atlas, Kibana, APM) adaptándome a diferentes niveles de madurez organizacional."
             ]
           },
@@ -290,7 +278,7 @@
             title: "Plataforma de Categorización de Transacciones de Alto Volumen",
             context: "Qwist • 2021–2024",
             impact: "Diseñé y entregué un sistema de categorización basado en reglas + ML que procesa 7 millones de transacciones al día a 3.5K req/s. Habilitó productos de datos financieros enriquecidos para clientes bancarios en Europa.",
-            tech: "Spring Boot, Spring WebFlux, Python ML, Kubernetes (GCP), MongoDB Atlas, Kibana",
+            tech: "Spring Boot, Async & parallel programming, Python ML, Kubernetes (GCP), MongoDB Atlas, Kibana",
             result: "Sistema en producción que procesa millones de transacciones financieras diarias con cumplimiento PCI-DSS y PSD2"
           },
           {
@@ -521,6 +509,7 @@
 
     function setLanguage(lang) {
       currentLang = lang;
+      document.documentElement.lang = (lang === 'es') ? 'es' : 'en';
       renderAll(lang);
       
       // Persist choice
@@ -535,6 +524,7 @@
       } catch(e){}
       
       currentLang = lang;
+      document.documentElement.lang = (lang === 'es') ? 'es' : 'en';
       renderAll(lang);
     }
 
