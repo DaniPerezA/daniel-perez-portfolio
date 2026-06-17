@@ -65,14 +65,14 @@
   <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/95 border-b border-slate-200 transition-all">
     <div class="max-w-6xl mx-auto px-6">
       <div class="flex items-center justify-between h-16">
-        <!-- Logo -->
-        <div class="flex items-center gap-x-3">
+        <!-- Logo (clickable to top) -->
+        <a href="#" id="logo-link" class="flex items-center gap-x-3 hover:opacity-80 transition-opacity" aria-label="Back to top">
           <img src="./assets/logo_imagen.jpg" alt="Daniel Pérez Álvarez logo" class="w-9 h-9 rounded-xl object-cover ring-1 ring-slate-200">
           <div>
             <div class="font-semibold text-lg tracking-tight">Daniel Pérez Álvarez</div>
             <div class="text-[10px] text-slate-500 -mt-1 hidden sm:block">Engineering Manager</div>
           </div>
-        </div>
+        </a>
 
         <!-- Desktop Navigation -->
         <div class="hidden md:flex items-center gap-x-8 text-sm font-medium">
@@ -88,9 +88,9 @@
         <div class="flex items-center gap-x-2">
           <!-- Language Toggle -->
           <div class="flex items-center bg-slate-100 rounded-xl p-1 text-sm font-medium">
-            <button id="lang-en" onclick="setLanguage('en')" 
+            <button id="lang-en" 
                     class="lang-btn px-3.5 py-1 rounded-[10px] active bg-slate-900 text-white text-xs tracking-wider font-semibold">EN</button>
-            <button id="lang-es" onclick="setLanguage('es')" 
+            <button id="lang-es" 
                     class="lang-btn px-3.5 py-1 rounded-[10px] text-slate-600 hover:text-slate-900 text-xs tracking-wider font-semibold">ES</button>
           </div>
 
@@ -376,7 +376,7 @@
         <a href="https://github.com/DaniPerezA" target="_blank" class="inline-flex items-center gap-x-2 font-medium hover:text-blue-700">
           <i class="fa-brands fa-github text-lg"></i> <span>GitHub</span>
         </a>
-        <button onclick="copyEmail()" class="inline-flex items-center gap-x-2 font-medium hover:text-blue-700">
+        <button id="copy-email-btn" class="inline-flex items-center gap-x-2 font-medium hover:text-blue-700">
           <i class="fa-solid fa-copy"></i> <span data-i18n="contact.copy">Copy email address</span>
         </button>
       </div>
@@ -391,7 +391,7 @@
       <div class="mt-8 pt-8 border-t border-slate-100">
         <p class="text-sm font-medium mb-3 text-slate-600" data-i18n="contact.form_title">Send a quick message</p>
         
-        <form id="contact-form" onsubmit="sendEmail(event)" class="grid sm:grid-cols-2 gap-4">
+        <form id="contact-form" class="grid sm:grid-cols-2 gap-4">
           <input type="text" id="form-name" placeholder="Your name" required
                  class="border border-slate-300 focus:border-blue-400 rounded-2xl px-4 py-3 text-sm outline-none placeholder:text-slate-400">
           <input type="email" id="form-email" placeholder="Your email" required
@@ -423,6 +423,13 @@
       </div>
     </div>
   </footer>
+
+  <!-- Back to top floating button -->
+  <button id="back-to-top"
+          class="flex opacity-0 pointer-events-none fixed bottom-5 right-[max(1.25rem,calc(50%-36rem-4rem))] md:bottom-6 z-[60] w-10 h-10 md:w-11 md:h-11 items-center justify-center rounded-2xl bg-white border border-slate-200 shadow-md text-slate-500 hover:text-slate-800 hover:border-slate-300 hover:shadow-lg active:scale-[0.96] transition-all duration-200"
+          aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up text-sm"></i>
+  </button>
 
   <script src="js/main.js"></script>
 </body>

@@ -567,8 +567,6 @@
 
     function copyEmail() {
       navigator.clipboard.writeText('danipereza@gmail.com').then(() => {
-        const originalText = event.target ? event.target.textContent : '';
-        const btns = document.querySelectorAll('button');
         // Simple toast
         const toast = document.createElement('div');
         toast.className = 'fixed bottom-6 left-1/2 -translate-x-1/2 bg-slate-900 text-white text-sm px-4 py-2 rounded-2xl shadow-xl flex items-center gap-2';
@@ -605,6 +603,9 @@
 
     function initSmoothAnchors() {
       document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        // Skip the logo link (it has its own top handler)
+        if (anchor.id === 'logo-link') return;
+
         anchor.addEventListener('click', function(e) {
           const target = document.querySelector(this.getAttribute('href'));
           if (target) {
@@ -622,11 +623,63 @@
       });
     }
 
+    function initBackToTop() {
+      const backToTopBtn = document.getElementById('back-to-top');
+      const logoLink = document.getElementById('logo-link');
+
+      // Logo in navbar → scroll to top
+      if (logoLink) {
+        logoLink.addEventListener('click', (e) => {
+          e.preventDefault();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      }
+
+      if (!backToTopBtn) return;
+
+      const toggleBackToTop = () => {
+        if (window.scrollY > 420) {
+          backToTopBtn.classList.remove('opacity-0', 'pointer-events-none');
+          backToTopBtn.classList.add('opacity-100');
+        } else {
+          backToTopBtn.classList.remove('opacity-100');
+          backToTopBtn.classList.add('opacity-0', 'pointer-events-none');
+        }
+      };
+
+      window.addEventListener('scroll', toggleBackToTop, { passive: true });
+
+      // Initial state
+      toggleBackToTop();
+
+      backToTopBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+
+    function initEventHandlers() {
+      // Language toggle buttons
+      const langEn = document.getElementById('lang-en');
+      const langEs = document.getElementById('lang-es');
+      if (langEn) langEn.addEventListener('click', () => setLanguage('en'));
+      if (langEs) langEs.addEventListener('click', () => setLanguage('es'));
+
+      // Copy email button
+      const copyBtn = document.getElementById('copy-email-btn');
+      if (copyBtn) copyBtn.addEventListener('click', copyEmail);
+
+      // Contact form
+      const contactForm = document.getElementById('contact-form');
+      if (contactForm) contactForm.addEventListener('submit', sendEmail);
+    }
+
     function init() {
       initTailwind();
       initNavbar();
       initYear();
       initSmoothAnchors();
+      initBackToTop();
+      initEventHandlers();
       initLanguage();
       
       // Keyboard support for lang (optional)
