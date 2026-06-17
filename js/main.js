@@ -19,7 +19,7 @@
           greeting: "Hello, I'm",
           name: "Daniel Pérez Álvarez",
           headline: "Engineering Manager | Building and Scaling engineering teams",
-          tagline: "Results-driven leader with 15+ years of software engineering experience (8+ years managing teams). Expert in building scalable systems, modernizing legacy to microservices, AI-powered development, and driving compliance in regulated environments.",
+          tagline: "Results-driven leader with 15+ years of software engineering experience and 8+ years managing teams. Expert in building scalable systems, modernizing legacy to microservices, AI-powered development, and driving compliance in regulated environments.",
           cta1: "Get in touch",
           cta2: "View my work",
           cta3: "View CV (English)",
@@ -28,7 +28,7 @@
         },
         about: {
           title: "About Me",
-          body: "Results-driven Engineering Manager with 15+ years of software engineering experience (8+ years managing multidisciplinary, distributed engineering teams). Expert in bridging technical architecture and product delivery, modernizing legacy systems to microservices, AI-powered development, and ensuring compliance with PCI-DSS and PSD2 regulations. Proven track record in Agile methodology, team hiring and development, performance optimization, and high-throughput transaction systems. Passionate about clean code, maintainable design, and productive engineering practices.",
+          body: "Results-driven Engineering Manager with 15+ years of software engineering experience and 8+ years managing multidisciplinary, distributed engineering teams. Expert in bridging technical architecture and product delivery, modernizing legacy systems to microservices, AI-powered development, and ensuring compliance with PCI-DSS and PSD2 regulations. Proven track record in Agile methodology, team hiring and development, performance optimization, and high-throughput transaction systems. Passionate about clean code, maintainable design, and productive engineering practices.",
           stat: {
             years: "Years managing engineering teams",
             team: "Engineers scaled in a single organization",
@@ -201,7 +201,7 @@
           greeting: "Hola, soy",
           name: "Daniel Pérez Álvarez",
           headline: "Engineering Manager | Construyendo y escalando equipos de ingeniería",
-          tagline: "Líder orientado a resultados con más de 15 años de experiencia en ingeniería de software (8+ años gestionando equipos). Experto en construir sistemas escalables, modernizar legacy a microservicios, desarrollo con IA y garantizar el cumplimiento en entornos regulados.",
+          tagline: "Líder orientado a resultados con más de 15 años de experiencia en ingeniería de software y 8+ años gestionando equipos. Experto en construir sistemas escalables, modernizar legacy a microservicios, desarrollo con IA y garantizar el cumplimiento en entornos regulados.",
           cta1: "Ponte en contacto",
           cta2: "Ver mi trabajo",
           cta3: "Ver CV (Inglés)",
@@ -210,7 +210,7 @@
         },
         about: {
           title: "Sobre mí",
-          body: "Engineering Manager orientado a resultados con más de 15 años de experiencia en ingeniería de software (8+ años gestionando equipos multidisciplinares y distribuidos). Experto en conectar la arquitectura técnica con la entrega de producto, modernizando sistemas legacy hacia microservicios, desarrollo con IA y garantizando el cumplimiento con PCI-DSS y PSD2. Historial probado en metodologías Ágiles, contratación y desarrollo de equipos, optimización de rendimiento y sistemas de alto volumen. Apasionado por el código limpio, el diseño mantenible y las prácticas productivas de ingeniería.",
+          body: "Engineering Manager orientado a resultados con más de 15 años de experiencia en ingeniería de software y 8+ años gestionando equipos multidisciplinares y distribuidos. Experto en conectar la arquitectura técnica con la entrega de producto, modernizando sistemas legacy hacia microservicios, desarrollo con IA y garantizando el cumplimiento con PCI-DSS y PSD2. Historial probado en metodologías Ágiles, contratación y desarrollo de equipos, optimización de rendimiento y sistemas de alto volumen. Apasionado por el código limpio, el diseño mantenible y las prácticas productivas de ingeniería.",
           stat: {
             years: "Años gestionando equipos de ingeniería",
             team: "Ingenieros escalados en una sola organización",
