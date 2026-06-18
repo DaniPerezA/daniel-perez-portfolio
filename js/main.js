@@ -145,7 +145,8 @@
         },
         testimonials: {
           title: "Recommendations",
-          subtitle: "What leaders I've worked with say"
+          subtitle: "What leaders I've worked with say",
+          note: "View the full signed letters (with signatures) from the links in each recommendation."
         },
         testimonialsItems: [
           {
@@ -327,7 +328,8 @@
         },
         testimonials: {
           title: "Recomendaciones",
-          subtitle: "Lo que dicen los líderes con los que he trabajado"
+          subtitle: "Lo que dicen los líderes con los que he trabajado",
+          note: "Ver las cartas completas firmadas desde los enlaces de cada recomendación."
         },
         testimonialsItems: [
           {
