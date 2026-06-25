@@ -19,7 +19,7 @@
           greeting: "Hello, I'm",
           name: "Daniel Pérez Álvarez",
           headline: "Engineering Manager | Building and Scaling engineering teams",
-          tagline: "Results-driven leader with 15+ years of software engineering experience and 8+ years managing teams. Expert in building scalable systems, modernizing legacy to microservices, AI-powered development, and driving compliance in regulated environments.",
+          tagline: "Results-driven Engineering Manager with 8+ years leading and scaling multidisciplinary, distributed engineering teams and 15+ years of hands-on software engineering experience in complex, highly regulated environments.",
           cta1: "Get in touch",
           cta2: "View my work",
           cta3: "View CV (English)",
@@ -28,7 +28,7 @@
         },
         about: {
           title: "About Me",
-          body: "Results-driven Engineering Manager with 15+ years of software engineering experience and 8+ years managing multidisciplinary, distributed engineering teams. Expert in bridging technical architecture and product delivery, modernizing legacy systems to microservices, AI-powered development, and ensuring compliance with PCI-DSS and PSD2 regulations. Proven track record in Agile methodology, team hiring and development, performance optimization, and high-throughput transaction systems. Passionate about clean code, maintainable design, and productive engineering practices.",
+          body: "Results-driven Engineering Manager with 8+ years leading and scaling multidisciplinary, distributed engineering teams and 15+ years of hands-on software engineering experience in complex, highly regulated environments. Expert in bridging technical architecture and product delivery, modernizing legacy systems to microservices, and ensuring compliance with standards such as PCI-DSS and PSD2. Proven track record in Agile methodology implementation, team hiring and development, performance optimization, and delivering high-throughput systems. Passionate about clean code, maintainable software design, and productive engineering practices across the full project lifecycle.",
           stat: {
             years: "Years managing engineering teams",
             team: "Engineers scaled in a single organization",
@@ -47,33 +47,36 @@
         leadershipItems: [
           {
             role: "Engineering Manager",
-            company: "Payxpert — Payment solutions for businesses",
+            company: "Payxpert — Omni-channel Payments Company (Online, POS, In-App)",
             period: "April 2024 – Present",
             bullets: [
-              "Lead two engineering teams (7 engineers: 2 Junior Java, 2 Senior Java, 2 Senior PHP, 1 Tech Lead), 1 QA and 1 Product Manager maintaining and evolving a high-availability payments API platform in a highly regulated environment (full PCI-DSS compliance), in close collaboration with Product and stakeholders.",
-              "Spearheading the migration of a monolithic Central Backoffice (merchant admin, reporting, billing) to modern microservices using Spring Boot, Kotlin, GraphQL and event-driven architecture while managing remote, multidisciplinary and multicultural teams.",
-              "Established mature Agile workflows, defined performance KPIs, prioritized backlog with Product, conducted hiring and created individual career growth plans for the team."
+              "Led two engineering teams (7 engineers + 1 QA + 1 PM) maintaining and evolving a high-availability payments API platform.",
+              "Spearheaded migration of monolithic Central Backoffice (merchant/internal admin, reporting, billing) to microservices using Spring Boot, Kotlin, GraphQL, and event-driven architecture.",
+              "Established and matured Agile workflows, defined performance KPIs, prioritized backlog with PM, conducted hiring, and created individual career growth plans.",
+              "Integrated AI agentic development workflows with Claude to streamline engineering productivity."
             ]
           },
           {
             role: "Engineering Manager – Categorization & Data Business Unit",
-            company: "Qwist — Leading technology and solution provider for Open Finance",
+            company: "Qwist — European Financial Services Leader for Banking Sector",
             period: "July 2021 – March 2024",
             bullets: [
-              "Led the technical design, evolution and delivery of a transaction data categorization and enrichment system (rules + ML models) processing 7 million transactions daily at 3.5K requests/second via REST APIs in highly regulated financial environments (PCI-DSS and PSD2).",
-              "Managed cross-functional, multicultural and multidisciplinary remote team of 9 (engineers, Tech Lead, Data Scientist, 3 Data Quality specialists, PM), working in close partnership with Product and stakeholders on prioritization and roadmaps. Personally hired 4 engineers.",
-              "Built high-performance backend with Spring Boot + Async & parallel programming and integrated Python-based ML models.",
-              "Deployed and monitored on Google Cloud Platform (Kubernetes, MongoDB Atlas, Kibana, APM) while adapting to different organizational maturity levels."
+              "Managed technical design, evolution, and delivery of a transaction data categorization/enrichment system (rules + ML models) processing 7 million transactions daily at 3.5K requests/second via REST APIs.",
+              "Led cross-functional team (1 Junior Engineer, 2 Senior Engineers, 1 Tech Lead, 1 Data Scientist, 3 Data Quality specialists, 1 Product Manager); personally hired 4 engineers.",
+              "Collaborated daily with Product Manager on prioritization, estimations, roadmapping, and technical KPIs.",
+              "Built high-performance backend using Spring Boot and Spring WebFlux (asynchronous/parallel processing) and integrated Python ML models.",
+              "Deployed and monitored on GCP (Kubernetes, MongoDB Atlas, Kibana, APM tools).",
+              "Partnered with compliance teams to enforce PCI-DSS, strong encryption, and PSD2 regulatory standards."
             ]
           },
           {
             role: "CTO",
-            company: "MyValue Solutions — PSD2 TSP & Financial Data Provider",
+            company: "MyValue Solutions — PSD2 TSP and Financial Data Provider (Spain & Portugal)",
             period: "March 2019 – July 2021",
             bullets: [
-              "Defined strategic technology roadmap in close collaboration with Product and business stakeholders, scaling a multicultural, multidisciplinary remote team from 6 to 23 members in a high-growth startup, establishing processes that led to successful acquisition by Qwist.",
-              "Delivered PSD2 AIS APIs, data categorization and payments services in highly regulated environments (full PCI-DSS and bank audit compliance).",
-              "Led company through successful acquisition and technology integration with Qwist."
+              "Defined strategic technology roadmap and scaled engineering team from 6 to 23 members while establishing efficient processes and delivery standards.",
+              "Oversaw development of PSD2 AIS APIs, transaction data categorization, PSD2 payments, and related services — all fully compliant with PCI-DSS and bank audit requirements.",
+              "Led company through successful acquisition by Qwist."
             ]
           }
         ],
@@ -119,27 +122,31 @@
           categories: [
             {
               name: "Leadership & Management",
-              items: ["Engineering team performance", "Team & stakeholder management", "Hiring & mentoring", "Career development", "Roadmapping & prioritization", "Agile (Scrum, Kanban)"]
+              items: ["Engineering team performance", "Team & stakeholder management", "Hiring & mentoring", "Career development", "Roadmapping & prioritization", "Growth", "Communication"]
             },
             {
               name: "Architecture & Backend",
-              items: ["Microservices architecture", "Event-driven & async systems", "APIs & GraphQL", "Spring Boot", "Async & parallel programming", "Java & Kotlin"]
+              items: ["Microservices architecture", "APIs & GraphQL", "Event-driven and asynchronous systems"]
             },
             {
-              name: "AI & Agentic Development",
-              items: ["Agentic coding", "Claude Code", "Grok Build", "Microsoft Copilot"]
+              name: "Cloud & DevOps",
+              items: ["Google Cloud Platform (GCP)", "Kubernetes (CKAD)", "MongoDB Atlas", "ELK stack"]
             },
             {
-              name: "Cloud, Data & DevOps",
-              items: ["Google Cloud Platform (GCP)", "Kubernetes (CKAD)", "MongoDB Atlas", "PostgreSQL", "ELK / Observability", "CI/CD & monitoring"]
+              name: "Methodologies",
+              items: ["Agile", "Scrum", "Kanban", "CI/CD", "Application Monitoring"]
             },
             {
-              name: "Fintech & Compliance",
-              items: ["PCI-DSS", "PSD2", "Payments", "Rule based engines", "Data Encryption", "Security Best Practices"]
+              name: "Compliance & Security",
+              items: ["PCI-DSS", "PSD2", "Data Encryption", "Security Best Practices"]
             },
             {
-              name: "Languages & Tools",
-              items: ["Java", "Kotlin", "Python", "Bash scripting", "Spring Boot", "GraphQL", "REST APIs"]
+              name: "Languages & Frameworks",
+              items: ["Java", "Kotlin", "Spring Boot", "Python (ML models)"]
+            },
+            {
+              name: "AI & Emerging Tech",
+              items: ["Agentic AI systems", "LLM orchestration", "Autonomous agents and workflows"]
             }
           ]
         },
@@ -172,10 +179,10 @@
         },
         certs: {
           title: "Certifications & Professional Development",
-          ckad: "CKAD — Certified Kubernetes Application Developer (2025)",
+          ckad: "CKAD — Certified Kubernetes Application Developer (Udemy, 2025)",
           webflux: "Spring WebFlux Development (Udemy, 2023)",
-          english: "Native-level English (written & spoken) — 6th grade completed in the USA",
-          agile: "Scrum & Agile Methodologies • Groovy & Grails • Refactoring & JUnit • Liferay • Maven & CI"
+          english: "Native-level English (written & spoken; 6th grade completed in USA)",
+          agile: "Groovy & Grails Workshops (Greach Madrid, 2017, 24 hrs) • Scrum and Agile Methodologies (Grupo Atrium, 2016, 16 hrs) • Refactoring & JUnit Unit Testing (2012) • Liferay 6 & Portlets (2010–2012) • Maven & Continuous Integration (2011)"
         },
         contact: {
           title: "Let's Connect",
@@ -202,7 +209,7 @@
           greeting: "Hola, soy",
           name: "Daniel Pérez Álvarez",
           headline: "Engineering Manager | Construyendo y escalando equipos de ingeniería",
-          tagline: "Líder orientado a resultados con más de 15 años de experiencia en ingeniería de software y 8+ años gestionando equipos. Experto en construir sistemas escalables, modernizar legacy a microservicios, desarrollo con IA y garantizar el cumplimiento en entornos regulados.",
+          tagline: "Engineering Manager orientado a resultados con 8+ años liderando y escalando equipos de ingeniería multidisciplinares y distribuidos y más de 15 años de experiencia práctica en ingeniería de software en entornos complejos y altamente regulados.",
           cta1: "Ponte en contacto",
           cta2: "Ver mi trabajo",
           cta3: "Ver CV (Inglés)",
@@ -211,7 +218,7 @@
         },
         about: {
           title: "Sobre mí",
-          body: "Engineering Manager orientado a resultados con más de 15 años de experiencia en ingeniería de software y 8+ años gestionando equipos multidisciplinares y distribuidos. Experto en conectar la arquitectura técnica con la entrega de producto, modernizando sistemas legacy hacia microservicios, desarrollo con IA y garantizando el cumplimiento con PCI-DSS y PSD2. Historial probado en metodologías Ágiles, contratación y desarrollo de equipos, optimización de rendimiento y sistemas de alto volumen. Apasionado por el código limpio, el diseño mantenible y las prácticas productivas de ingeniería.",
+          body: "Engineering Manager orientado a resultados con 8+ años liderando y escalando equipos de ingeniería multidisciplinares y distribuidos y más de 15 años de experiencia práctica en ingeniería de software en entornos complejos y altamente regulados. Experto en conectar la arquitectura técnica con la entrega de producto, modernizando sistemas legacy hacia microservicios y garantizando el cumplimiento con estándares como PCI-DSS y PSD2. Historial probado en implementación de metodologías Ágiles, contratación y desarrollo de equipos, optimización de rendimiento y entrega de sistemas de alto rendimiento. Apasionado por el código limpio, el diseño de software mantenible y las prácticas productivas de ingeniería a lo largo de todo el ciclo de vida del proyecto.",
           stat: {
             years: "Años gestionando equipos de ingeniería",
             team: "Ingenieros escalados en una sola organización",
@@ -230,33 +237,36 @@
         leadershipItems: [
           {
             role: "Engineering Manager",
-            company: "Payxpert — Soluciones de pago para empresas",
+            company: "Payxpert — Compañía de Pagos Omni-canal (Online, POS, In-App)",
             period: "Abril 2024 – Actualidad",
             bullets: [
-              "Lidero dos equipos de ingeniería (7 ingenieros: 2 Java Junior, 2 Java Senior, 2 PHP Senior, 1 Tech Lead), 1 QA y 1 Product Manager para mantener y evolucionar una plataforma de pagos de alta disponibilidad en un entorno altamente regulado (cumplimiento total PCI-DSS), en estrecha colaboración con el equipo de Producto y stakeholders.",
-              "Encabezo la migración del Backoffice Central monolítico hacia una arquitectura moderna de microservicios usando Spring Boot, Kotlin, GraphQL y diseño orientado a eventos, gestionando equipos remotos, multidisciplinares y multiculturales.",
-              "Establecí flujos de trabajo Ágiles maduros, definí KPIs de rendimiento, prioricé backlog con Producto, realicé contrataciones y creé planes de crecimiento individual para los miembros del equipo."
+              "Lidero dos equipos de ingeniería (7 ingenieros + 1 QA + 1 PM) para mantener y evolucionar una plataforma de pagos de alta disponibilidad.",
+              "Encabezo la migración del Backoffice Central monolítico (admin de comercios/interno, reporting, billing) hacia microservicios usando Spring Boot, Kotlin, GraphQL y arquitectura orientada a eventos.",
+              "Establecí y maduré flujos Ágiles, definí KPIs de rendimiento, prioricé backlog con PM, realicé contrataciones y creé planes individuales de crecimiento.",
+              "Integré flujos de desarrollo agentic con IA usando Claude para optimizar la productividad de ingeniería."
             ]
           },
           {
             role: "Engineering Manager – Unidad de Negocio de Categorización y Datos",
-            company: "Qwist — Líder en tecnología y proveedor de soluciones para Open Finance",
+            company: "Qwist — Líder Europeo en Servicios Financieros para el Sector Bancario",
             period: "Julio 2021 – Marzo 2024",
             bullets: [
-              "Lideré el diseño técnico, evolución y entrega de un sistema de categorización y enriquecimiento de transacciones (reglas + modelos ML) que procesa 7 millones de transacciones diarias a 3.5K peticiones/segundo en entornos financieros altamente regulados (PCI-DSS y PSD2).",
-              "Gestioné un equipo remoto, multicultural y multidisciplinar de 9 personas (ingenieros, Tech Lead, Data Scientist, especialistas en calidad de datos y PM), colaborando estrechamente con Producto y stakeholders en priorización y roadmaps. Contraté personalmente a 4 ingenieros.",
-              "Construí un backend de alto rendimiento con Spring Boot + Async & parallel programming e integré modelos de ML en Python.",
-              "Desplegué y monitoricé en Google Cloud Platform (Kubernetes, MongoDB Atlas, Kibana, APM) adaptándome a diferentes niveles de madurez organizacional."
+              "Gestioné el diseño técnico, evolución y entrega de un sistema de categorización/enriquecimiento de transacciones (reglas + modelos ML) que procesa 7 millones de transacciones diarias a 3.5K peticiones/segundo vía REST APIs.",
+              "Lideré un equipo multifuncional (1 Ingeniero Junior, 2 Ingenieros Senior, 1 Tech Lead, 1 Data Scientist, 3 especialistas en calidad de datos, 1 Product Manager); contraté personalmente a 4 ingenieros.",
+              "Colaboré diariamente con el Product Manager en priorización, estimaciones, roadmapping y KPIs técnicos.",
+              "Construí un backend de alto rendimiento usando Spring Boot y Spring WebFlux (procesamiento asíncrono/paralelo) e integré modelos ML en Python.",
+              "Desplegué y monitoricé en GCP (Kubernetes, MongoDB Atlas, Kibana, herramientas APM).",
+              "Colaboré con equipos de compliance para aplicar estándares PCI-DSS, encriptación fuerte y regulaciones PSD2."
             ]
           },
           {
             role: "CTO",
-            company: "MyValue Solutions — Proveedor de Datos Financieros y TSP PSD2",
+            company: "MyValue Solutions — Proveedor de Datos Financieros y TSP PSD2 (España y Portugal)",
             period: "Marzo 2019 – Julio 2021",
             bullets: [
-              "Definí la hoja de ruta tecnológica estratégica en estrecha colaboración con el equipo de Producto y stakeholders de negocio, escalando un equipo multicultural y multidisciplinar remoto de 6 a 23 personas en una startup de alto crecimiento, estableciendo procesos que culminaron en la adquisición exitosa por Qwist.",
-              "Entregué APIs AIS PSD2, categorización de datos y servicios de pagos en entornos altamente regulados (cumplimiento total PCI-DSS y auditorías bancarias).",
-              "Lideró la compañía en la adquisición exitosa y la integración tecnológica con Qwist."
+              "Definí la hoja de ruta tecnológica estratégica y escalé el equipo de ingeniería de 6 a 23 miembros mientras establecía procesos eficientes y estándares de entrega.",
+              "Supervisé el desarrollo de APIs AIS PSD2, categorización de datos de transacciones, pagos PSD2 y servicios relacionados — todo en pleno cumplimiento con PCI-DSS y requisitos de auditoría bancaria.",
+              "Lideró la compañía en la adquisición exitosa por Qwist."
             ]
           }
         ],
@@ -302,27 +312,31 @@
           categories: [
             {
               name: "Liderazgo y Gestión",
-              items: ["Rendimiento de equipos de ingeniería", "Gestión de equipos y stakeholders", "Contratación y mentoring", "Desarrollo de carrera", "Roadmap y priorización", "Ágil (Scrum, Kanban)"]
+              items: ["Rendimiento de equipos de ingeniería", "Gestión de equipos y stakeholders", "Contratación y mentoring", "Desarrollo de carrera", "Roadmap y priorización", "Crecimiento", "Comunicación"]
             },
             {
               name: "Arquitectura y Backend",
-              items: ["Arquitectura de microservicios", "Sistemas event-driven y asíncronos", "APIs y GraphQL", "Spring Boot", "Async & parallel programming", "Java y Kotlin"]
+              items: ["Arquitectura de microservicios", "APIs y GraphQL", "Sistemas orientados a eventos y asíncronos"]
             },
             {
-              name: "Desarrollo con IA y Agentes",
-              items: ["Desarrollo agentic", "Claude Code", "Grok Build", "Microsoft Copilot"]
+              name: "Cloud y DevOps",
+              items: ["Google Cloud Platform (GCP)", "Kubernetes (CKAD)", "MongoDB Atlas", "Stack ELK"]
             },
             {
-              name: "Cloud, Datos y DevOps",
-              items: ["Google Cloud Platform (GCP)", "Kubernetes (CKAD)", "MongoDB Atlas", "PostgreSQL", "ELK / Observabilidad", "CI/CD y monitorización"]
+              name: "Metodologías",
+              items: ["Ágil", "Scrum", "Kanban", "CI/CD", "Monitorización de Aplicaciones"]
             },
             {
-              name: "Fintech y Cumplimiento",
-              items: ["PCI-DSS", "PSD2", "Payments", "Cifrado y seguridad de datos", "Enriquecimiento de datos transaccionales", "Integración de modelos ML", "Rule based engines"]
+              name: "Cumplimiento y Seguridad",
+              items: ["PCI-DSS", "PSD2", "Cifrado de datos", "Mejores prácticas de seguridad"]
             },
             {
-              name: "Lenguajes y Herramientas",
-              items: ["Java", "Kotlin", "Python", "Python (ML)", "Bash scripting", "Ecosistema Spring", "GraphQL", "REST APIs"]
+              name: "Lenguajes y Frameworks",
+              items: ["Java", "Kotlin", "Spring Boot", "Python (modelos ML)"]
+            },
+            {
+              name: "IA y Tecnologías Emergentes",
+              items: ["Sistemas de IA Agentic", "Orquestación de LLM", "Agentes y flujos autónomos"]
             }
           ]
         },
@@ -355,10 +369,10 @@
         },
         certs: {
           title: "Certificaciones y Desarrollo Profesional",
-          ckad: "CKAD — Certified Kubernetes Application Developer (2025)",
+          ckad: "CKAD — Certified Kubernetes Application Developer (Udemy, 2025)",
           webflux: "Desarrollo con Spring WebFlux (Udemy, 2023)",
           english: "Inglés a nivel nativo (escrito y hablado) — cursé 6º de primaria en EE.UU.",
-          agile: "Scrum y Metodologías Ágiles • Groovy & Grails • Refactorización y JUnit • Liferay • Maven e Integración Continua"
+          agile: "Talleres Groovy & Grails (Greach Madrid, 2017, 24 hrs) • Scrum y Metodologías Ágiles (Grupo Atrium, 2016, 16 hrs) • Refactorización y JUnit (2012) • Liferay 6 & Portlets (2010–2012) • Maven e Integración Continua (2011)"
         },
         contact: {
           title: "Conectemos",
