@@ -130,7 +130,7 @@
             },
             {
               name: "AI & Agentic Development",
-              items: ["Agentic coding", "Claude Code", "Grok Build", "Microsoft Copilot"]
+              items: ["Agentic coding", "Claude Code", "Grok Build", "Microsoft Copilot", "LLM orchestration", "Harness engineering"]
             },
             {
               name: "Cloud, Data & DevOps",
@@ -316,7 +316,7 @@
             },
             {
               name: "Desarrollo con IA y Agentes",
-              items: ["Desarrollo agentic", "Claude Code", "Grok Build", "Microsoft Copilot"]
+              items: ["Desarrollo agentic", "Claude Code", "Grok Build", "Microsoft Copilot", "Orquestación de LLM", "Ingeniería de guardarraíles"]
             },
             {
               name: "Cloud, Datos y DevOps",
