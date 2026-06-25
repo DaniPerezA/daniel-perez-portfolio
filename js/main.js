@@ -122,31 +122,27 @@
           categories: [
             {
               name: "Leadership & Management",
-              items: ["Engineering team performance", "Team & stakeholder management", "Hiring & mentoring", "Career development", "Roadmapping & prioritization", "Growth", "Communication"]
+              items: ["Engineering team performance", "Team & stakeholder management", "Hiring & mentoring", "Career development", "Roadmapping & prioritization", "Agile (Scrum, Kanban)"]
             },
             {
               name: "Architecture & Backend",
-              items: ["Microservices architecture", "APIs & GraphQL", "Event-driven and asynchronous systems"]
+              items: ["Microservices architecture", "Event-driven & async systems", "APIs & GraphQL", "Spring Boot", "Async & parallel programming", "Java & Kotlin"]
             },
             {
-              name: "Cloud & DevOps",
-              items: ["Google Cloud Platform (GCP)", "Kubernetes (CKAD)", "MongoDB Atlas", "ELK stack"]
+              name: "AI & Agentic Development",
+              items: ["Agentic coding", "Claude Code", "Grok Build", "Microsoft Copilot"]
             },
             {
-              name: "Methodologies",
-              items: ["Agile", "Scrum", "Kanban", "CI/CD", "Application Monitoring"]
+              name: "Cloud, Data & DevOps",
+              items: ["Google Cloud Platform (GCP)", "Kubernetes (CKAD)", "MongoDB Atlas", "PostgreSQL", "ELK / Observability", "CI/CD & monitoring"]
             },
             {
-              name: "Compliance & Security",
-              items: ["PCI-DSS", "PSD2", "Data Encryption", "Security Best Practices"]
+              name: "Fintech & Compliance",
+              items: ["PCI-DSS", "PSD2", "Payments", "Rule based engines", "Data Encryption", "Security Best Practices"]
             },
             {
-              name: "Languages & Frameworks",
-              items: ["Java", "Kotlin", "Spring Boot", "Python (ML models)"]
-            },
-            {
-              name: "AI & Emerging Tech",
-              items: ["Agentic AI systems", "LLM orchestration", "Autonomous agents and workflows"]
+              name: "Languages & Tools",
+              items: ["Java", "Kotlin", "Python", "Bash scripting", "Spring Boot", "GraphQL", "REST APIs"]
             }
           ]
         },
@@ -312,31 +308,27 @@
           categories: [
             {
               name: "Liderazgo y Gestión",
-              items: ["Rendimiento de equipos de ingeniería", "Gestión de equipos y stakeholders", "Contratación y mentoring", "Desarrollo de carrera", "Roadmap y priorización", "Crecimiento", "Comunicación"]
+              items: ["Rendimiento de equipos de ingeniería", "Gestión de equipos y stakeholders", "Contratación y mentoring", "Desarrollo de carrera", "Roadmap y priorización", "Ágil (Scrum, Kanban)"]
             },
             {
               name: "Arquitectura y Backend",
-              items: ["Arquitectura de microservicios", "APIs y GraphQL", "Sistemas orientados a eventos y asíncronos"]
+              items: ["Arquitectura de microservicios", "Sistemas event-driven y asíncronos", "APIs y GraphQL", "Spring Boot", "Async & parallel programming", "Java y Kotlin"]
             },
             {
-              name: "Cloud y DevOps",
-              items: ["Google Cloud Platform (GCP)", "Kubernetes (CKAD)", "MongoDB Atlas", "Stack ELK"]
+              name: "Desarrollo con IA y Agentes",
+              items: ["Desarrollo agentic", "Claude Code", "Grok Build", "Microsoft Copilot"]
             },
             {
-              name: "Metodologías",
-              items: ["Ágil", "Scrum", "Kanban", "CI/CD", "Monitorización de Aplicaciones"]
+              name: "Cloud, Datos y DevOps",
+              items: ["Google Cloud Platform (GCP)", "Kubernetes (CKAD)", "MongoDB Atlas", "PostgreSQL", "ELK / Observabilidad", "CI/CD y monitorización"]
             },
             {
-              name: "Cumplimiento y Seguridad",
-              items: ["PCI-DSS", "PSD2", "Cifrado de datos", "Mejores prácticas de seguridad"]
+              name: "Fintech y Cumplimiento",
+              items: ["PCI-DSS", "PSD2", "Payments", "Cifrado y seguridad de datos", "Enriquecimiento de datos transaccionales", "Integración de modelos ML", "Rule based engines"]
             },
             {
-              name: "Lenguajes y Frameworks",
-              items: ["Java", "Kotlin", "Spring Boot", "Python (modelos ML)"]
-            },
-            {
-              name: "IA y Tecnologías Emergentes",
-              items: ["Sistemas de IA Agentic", "Orquestación de LLM", "Agentes y flujos autónomos"]
+              name: "Lenguajes y Herramientas",
+              items: ["Java", "Kotlin", "Python", "Python (ML)", "Bash scripting", "Ecosistema Spring", "GraphQL", "REST APIs"]
             }
           ]
         },
